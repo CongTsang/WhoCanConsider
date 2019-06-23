@@ -22,7 +22,7 @@ def bar_base(words, hot) -> Bar:
 
 if __name__ == '__main__':
     bar = Bar()
-    with open('./test.json', 'r', encoding='utf-8') as f:
+    with open('./words.json', 'r', encoding='utf-8') as f:
         lists = json.load(f)
 
         words = []
